@@ -6,7 +6,7 @@ Welcome to my submission for **Frontend Battle 2.0 – Round 1**, where I have r
 
 ## 🌐 Live Demo
 
-🔗 [View Deployed Site](https://somesh246-12.github.io/Frontend-Battle/)
+🔗 [View Deployed Site](https://frontend-battle-2.netlify.app/)
 
 ---
 
