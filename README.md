@@ -42,4 +42,16 @@ Welcome to my submission for **Frontend Battle 2.0 – Round 1**, where I have r
 
 ---
 
+## 🧠 AI Tools Used
+
+| Tool | Purpose |
+|------|---------|
+| **ChatGPT** | For layout planning, clean code generation, feature ideas |
+| **DeepSeek** | For layout planning, clean code generation, feature ideas |
+| **Lovable** | For prompt-based UI and section structure suggestions |
+
+> AI tools were used to assist in rapid prototyping, not to replace original logic.
+
+---
+
 
