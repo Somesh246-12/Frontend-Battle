@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Battle - Modern Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loader -->
+    <div id="loader" class="loader">
+        <div class="loader-spinner">
+            <div class="spinner-ring"></div>
+            <div class="spinner-ring"></div>
+            <div class="spinner-ring"></div>
+        </div>
+        <p class="loader-text">Loading Experience...</p>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Portfolio</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#stats" class="nav-link">Stats</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#video" class="nav-link">Media</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <button class="theme-toggle" id="theme-toggle">
+                <span class="theme-icon">🌙</span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="hero">
+            <div class="hero-background">
+                <div class="gradient-orb orb-1"></div>
+                <div class="gradient-orb orb-2"></div>
+                <div class="gradient-orb orb-3"></div>
+            </div>
+            <div class="hero-content">
+                <h1 class="hero-title fade-in-up">
+                    Welcome to the <span class="gradient-text">Future</span>
+                </h1>
+                <p class="hero-subtitle fade-in-up">
+                    Crafting digital experiences with modern design and innovative technology
+                </p>
+                <div class="hero-buttons fade-in-up">
+                    <button class="btn btn-primary">Get Started</button>
+                    <button class="btn btn-secondary">Learn More</button>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="scroll-arrow"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About Our Vision</h2>
+                    <p class="section-subtitle">Pushing boundaries in digital innovation</p>
+                </div>
+                <div class="about-grid">
+                    <div class="about-card">
+                        <div class="card-icon">🚀</div>
+                        <h3>Innovation</h3>
+                        <p>Cutting-edge solutions that push the boundaries of what's possible in web development.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon">💡</div>
+                        <h3>Creativity</h3>
+                        <p>Unique designs that combine aesthetic appeal with functional excellence.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon">⚡</div>
+                        <h3>Performance</h3>
+                        <p>Lightning-fast experiences optimized for all devices and platforms.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Statistics Section -->
+        <section id="stats" class="stats">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Our Impact</h2>
+                    <p class="section-subtitle">Numbers that showcase our success</p>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">🚀</div>
+                        <div class="stat-number" data-target="150">0</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">👥</div>
+                        <div class="stat-number" data-target="50">0</div>
+                        <div class="stat-label">Happy Clients</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">⏱️</div>
+                        <div class="stat-number" data-target="2400">0</div>
+                        <div class="stat-label">Hours of Work</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">🏆</div>
+                        <div class="stat-number" data-target="25">0</div>
+                        <div class="stat-label">Awards Won</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="gallery">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Our Gallery</h2>
+                    <p class="section-subtitle">Showcasing our finest work</p>
+                </div>
+                <div class="gallery-grid">
+                    <!-- Replace these placeholder images with your own from Google Drive -->
+                    <!-- To use your own images: 1. Upload to Google Drive 2. Make public 3. Replace src URLs -->
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?w=500&h=300&fit=crop" alt="Gallery Image 1" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Project Alpha</h3>
+                            <p>Modern Web Design</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&h=300&fit=crop" alt="Gallery Image 2" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Project Beta</h3>
+                            <p>Mobile Application</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=500&h=300&fit=crop" alt="Gallery Image 3" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Project Gamma</h3>
+                            <p>E-commerce Platform</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=500&h=300&fit=crop" alt="Gallery Image 4" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Project Delta</h3>
+                            <p>Dashboard Interface</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop" alt="Gallery Image 5" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Project Epsilon</h3>
+                            <p>Data Visualization</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1504639725590-34d098438f71?w=500&h=300&fit=crop" alt="Gallery Image 6" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Project Zeta</h3>
+                            <p>Brand Identity</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video Section -->
+        <section id="video" class="video-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Experience in Motion</h2>
+                    <p class="section-subtitle">See our work come to life</p>
+                </div>
+                <div class="video-container">
+                    <!-- Replace with your own video from Google Drive -->
+                    <!-- For Google Drive videos: Share -> Get link -> Replace FILE_ID in the URL below -->
+                    <video class="featured-video" controls poster="https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=450&fit=crop">
+                        <source src="https://sample-videos.com/zip/10/mp4/SampleVideo_1280x720_1mb.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="video-info">
+                        <h3>Behind the Scenes</h3>
+                        <p>Watch how we bring digital experiences to life through innovative design and development processes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-subtitle">Let's create something amazing together</p>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>hello@portfolio.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📱</div>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>San Francisco, CA</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Portfolio. Crafted with ❤️ for Frontend Battle.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">GitHub</a>
+                    <a href="#" class="social-link">LinkedIn</a>
+                    <a href="#" class="social-link">Twitter</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
